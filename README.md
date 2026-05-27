@@ -1,5 +1,7 @@
 # Chocolate Store Social Feed (Public Stub Demo)
 
+**Repository:** https://github.com/renevanschijndel-prog/chocolate-store-feed
+
 A minimal, **public** demo of a social feed for a fictional chocolate store. All data comes from in-repo JSON fixtures; **no external APIs** are called at runtime.
 
 ## Features
