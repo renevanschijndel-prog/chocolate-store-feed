@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="300" viewBox="0 0 400 300">
+  <rect width="400" height="300" fill="#d4a574"/>
+  <circle cx="200" cy="140" r="70" fill="#6b4423"/>
+  <text x="200" y="148" text-anchor="middle" fill="#fff8ee" font-family="system-ui,sans-serif" font-size="14">Gianduja</text>
+</svg>

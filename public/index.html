@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>ChocoSocial — Chocolate Store Feed</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <div class="demo-banner">
+      Demo mode: data from local JSON + session storage only. No external APIs.
+    </div>
+    <header class="app-header">
+      <div class="brand">
+        ChocoSocial <span>Chocolate Store</span>
+      </div>
+      <nav>
+        <button type="button" id="nav-feed">Feed</button>
+        <button type="button" id="nav-compose" class="btn-secondary">New post</button>
+      </nav>
+      <div class="user-select">
+        <label for="current-user">Demo user</label>
+        <select id="current-user" aria-label="Select demo user"></select>
+      </div>
+    </header>
+    <main id="app" aria-live="polite"></main>
+    <div id="modal-root" class="hidden"></div>
+    <script src="/app.js" type="module"></script>
+  </body>
+</html>

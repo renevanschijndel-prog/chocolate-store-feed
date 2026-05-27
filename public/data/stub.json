@@ -1,0 +1,89 @@
+{
+  "users": [
+    {
+      "id": "u-alex",
+      "name": "Alex Rivera",
+      "avatarUrl": "/images/avatar-alex.svg"
+    },
+    {
+      "id": "u-morgan",
+      "name": "Morgan Lee",
+      "avatarUrl": "/images/avatar-morgan.svg"
+    },
+    {
+      "id": "u-sam",
+      "name": "Sam Okonkwo",
+      "avatarUrl": "/images/avatar-sam.svg"
+    }
+  ],
+  "products": [
+    {
+      "id": "p-dark-72",
+      "name": "Midnight 72% Dark",
+      "price": 8.5,
+      "imageUrl": "/images/product-dark.svg",
+      "description": "Single-origin Ecuador bar with notes of cherry and cedar."
+    },
+    {
+      "id": "p-sea-salt",
+      "name": "Sea Salt Caramel Squares",
+      "price": 12.0,
+      "imageUrl": "/images/product-caramel.svg",
+      "description": "Buttery caramel enrobed in 55% milk chocolate and flaky salt."
+    },
+    {
+      "id": "p-hazelnut",
+      "name": "Gianduja Hazelnut Praline",
+      "price": 14.5,
+      "imageUrl": "/images/product-hazelnut.svg",
+      "description": "Roasted Piedmont hazelnuts blended into a silky praline."
+    }
+  ],
+  "posts": [
+    {
+      "id": "post-1",
+      "authorId": "u-alex",
+      "productId": "p-dark-72",
+      "text": "Finally tried the Midnight 72% — intense but balanced. Perfect with espresso.",
+      "imageUrl": null,
+      "createdAt": "2026-05-26T14:20:00Z"
+    },
+    {
+      "id": "post-2",
+      "authorId": "u-morgan",
+      "productId": "p-sea-salt",
+      "text": "These caramel squares are dangerous. Shared a box at work and they vanished in minutes.",
+      "imageUrl": "/images/post-caramel.svg",
+      "createdAt": "2026-05-25T09:05:00Z"
+    },
+    {
+      "id": "post-3",
+      "authorId": "u-sam",
+      "productId": null,
+      "text": "First visit to the store today — any must-try bars for someone who likes nutty profiles?",
+      "imageUrl": null,
+      "createdAt": "2026-05-24T18:40:00Z"
+    }
+  ],
+  "comments": [
+    {
+      "id": "c-1",
+      "postId": "post-3",
+      "authorId": "u-alex",
+      "text": "Gianduja Hazelnut Praline is my go-to for nutty.",
+      "createdAt": "2026-05-24T19:02:00Z"
+    },
+    {
+      "id": "c-2",
+      "postId": "post-1",
+      "authorId": "u-morgan",
+      "text": "Agreed on the espresso pairing!",
+      "createdAt": "2026-05-26T15:00:00Z"
+    }
+  ],
+  "likes": [
+    { "postId": "post-1", "userId": "u-morgan" },
+    { "postId": "post-1", "userId": "u-sam" },
+    { "postId": "post-2", "userId": "u-alex" }
+  ]
+}

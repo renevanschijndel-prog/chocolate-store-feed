@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="300" viewBox="0 0 400 300">
+  <rect width="400" height="300" fill="#2d1810"/>
+  <rect x="80" y="60" width="240" height="160" rx="12" fill="#4a2c1a"/>
+  <text x="200" y="155" text-anchor="middle" fill="#f5e6d3" font-family="system-ui,sans-serif" font-size="18">72% Dark</text>
+</svg>
